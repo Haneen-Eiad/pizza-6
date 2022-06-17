@@ -1,0 +1,161 @@
+:root{
+    --main_color:#fbcd4e ;
+}
+.icon_left-line{
+    width: 84px;
+    height: 3px;
+    /* padding-top: 30px; */
+    /* display: inline-block; */
+    background-color: gainsboro;
+}
+.icon_right_line{
+    width: 84px;
+    height: 3px;
+    /* padding-top: 30px; */
+    /* display: inline-block; */
+    background-color: gainsboro;
+  
+}
+.icon-with-lines{
+    justify-content: center;
+}
+.Welcome_to_Pizza_House_info_icon{
+    margin-left: 30px;
+    margin-right: 30px;
+   color: #ca0808;
+}
+.Welcome_to_Pizza_House_info_first_para{
+    width: 57%;
+    margin: auto;
+    color: var(--main_color);
+    
+}
+.Welcome_to_Pizza_House_info_seconed_para{
+    width: 82%;
+    margin: auto;
+    color: #717272;
+}
+.Welcome_to_Pizza_House_info_link,.card-link{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 31px;
+    padding-right: 31px;
+    border: 2px solid #ca0808;
+    background-color: #ca0808;
+    border-radius: 2.3em;
+    text-decoration: none;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.Welcome_to_Pizza_House_info_link:hover{
+    background: transparent;
+    color: #ca0808;
+    transition: all .5s;
+}
+
+.Welcome_to_Pizza_House_img{
+    justify-content: center;
+    transform: translate(-37%);
+}
+.Welcome_to_Pizza_House_info{
+    transform: translate(2%);
+}
+.Welcome_to_Pizza_House_section{
+ padding-top: 120px;
+ padding-bottom: 120px;
+ 
+}
+
+/* slider  */
+/* .sliderCard{
+    padding: 40px;
+} */
+
+
+.slider-main-title{
+  
+    text-align: center;
+    color: var(--main_color);
+}
+
+.slider-main-para{
+    padding-bottom: 21px;
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+}
+.all{
+    
+    background-image: url("../img/wood.jpg");
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding-bottom: 130PX;
+    padding-top: 130px;
+    
+}
+.slider1-part1{
+    transform: translate(85%);
+}
+.slider1-part2{
+    transform: translate(30%);
+}
+.slider1-part3{
+    transform: translate( -25%);
+}
+.allParts{
+    transform: translate( 8%);
+    /* box-sizing: border-box; */
+    
+  
+}
+
+.slider-pic{
+    width: 128%;
+    transform: translate( -12%);
+}
+.card-text{
+    width: 309px;
+    /* margin: 0 !important; */
+    padding-right: 75px;
+    font-size: 12px;
+    /* position: absolute;
+    left: 8px; */
+    transform: translate( -12%);
+    color: #ffffff;
+}
+
+.sliderCard{
+padding-left: 100px;
+/* position: relative; */
+/* background-color: transparent; */
+}
+.slider1-part1,.slider1-part2,.slider1-part3{
+    background-color: transparent;
+}
+.card-title{
+    color: var(--main_color);
+    width: 143%;
+    transform: translate( -19%);
+    padding-top: 15px;
+    padding-bottom: 11px;
+
+}
+.card-price{
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    padding-top: 4px;
+    padding-bottom: 20px;
+}
+.card-link:hover{
+    background: transparent;
+    color: #ffffff;
+    transition: all .5s;
+    border: 1px solid #ffffff;
+    font-size: 13px !important;
+    line-height: 20px !important;
+    font-weight: 700 !important;
+}
