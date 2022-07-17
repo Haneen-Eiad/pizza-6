@@ -159,3 +159,20 @@ padding-left: 100px;
     line-height: 20px !important;
     font-weight: 700 !important;
 }
+ /* card ***************************** */
+.add_btn{
+    background-color:#e9ecef;
+}
+ .tableImage{
+    width:120px;
+    height: 200px;
+ }
+ .deletallbtn{
+    transform: translate( 775%);
+    margin-top: 13px;
+    margin-bottom: 13px;
+ }
+ .searchcrud{
+    width: 47%;
+    transform: translate( 57%);
+ }
